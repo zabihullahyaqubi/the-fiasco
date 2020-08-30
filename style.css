@@ -1,0 +1,164 @@
+body {
+    background: rgba(50,50,50,1);
+    font-size: 100%;
+    color: white;
+    width: 1035px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#link1 {
+    margin-right: 300px;
+    margin-left: 100px;
+
+}
+
+#reser {
+
+    border: 1px solid gray;
+}
+.img1 img {
+    width: 1343px;
+    margin-bottom: 33px;
+}
+
+.royaks{
+    text-align: center;
+    position: relative;
+    bottom: 27rem;
+    left: 8rem;
+}
+.royaks h1{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 5rem;
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: rgba(50,50,50,.95);
+    box-shadow: 0 10px 20px rgba(50,50,50,.95);
+    opacity: 0.6;
+}
+
+nav {
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+nav a {
+    font-family: F_doran;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#main {
+    padding-top: 70px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    max-height: 300vh;
+}
+
+.box1 {
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+}
+.card {
+    width: 350px;
+    height: 424px;
+    margin: 10px;
+}
+.card img {
+    max-width: 150%;
+}
+.card .text {
+    padding: 90px 20px 20px;
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 1.65em;
+    padding: 10px;
+}
+
+/* Generic styling */
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    color: #bbb;
+    line-height: 1.5;
+}
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+a:hover {
+    text-decoration: underline;
+}
+.ft-title {
+    color: goldenrod;
+    font-family: "Merriweather", serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+/* Sticks footer to bottom */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container {
+    flex: 1;
+}
+/* Footer main */
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1342px;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+
